@@ -2,8 +2,8 @@ import React from "react";
 const Navbar = () => {
     const cohorte = 'Spain-77';
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
-            <div className="container-fluid d-inline-flex ">
+        <nav className="navbar navbar-expand-lg bg-dark">
+            <div className="container-fluid">
                 <a className="navbar-brand" href="#" />
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -11,16 +11,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <a className="nav-link  text-light" href="#">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">Services</a>
+                            <a className="nav-link  text-light">Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-lin">Contact</a>
+                            <a className="nav-link  text-light">Contact</a>
                         </li>
                     </ul>
                 </div>
